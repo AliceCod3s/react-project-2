@@ -1,10 +1,11 @@
 import './App.css';
+import Weather from "./Weather";
 
 function App() {
   
    return <div className="App">
      <div className="container">
-    <h1> Weather App</h1>
+    <Weather />
      <footer>
         This project was coded by <a href="https://www.instagram.com/imissalice/" target="_blank">Alice Gitman </a>  and is {" "}
      <a href="https://github.com/AliceCod3s/react-project-2" target="_blank">
